@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/oneself/resume/resume",
+    "pages/add/add",
+    "pages/user/video/video",
+    "pages/user/camera/camera",
+    "pages/user/publish/publish",
+    "pages/user/enterprise/center/center",
+    "pages/user/index/index",
+    "pages/enterprise/index/index",
+    "pages/map/index/index",
+    "pages/user/enterprise/baseInfo/baseInfo",
+    "pages/liveplayerdemo/liveplayer",
+    "pages/livepusherdemo/livepusher",
+    "pages/vip/vip",
+    "pages/user/oneself/selfCenter/selfCenter",
+    "pages/user/oneself/education/education",
+    "pages/user/oneself/jobIntension/jobIntension",
+    "pages/user/oneself/selectCity/selectCity",
+    "pages/user/oneself/companyDetail/companyDetail",
+    "pages/user/oneself/wallet/wallet",
+    "pages/user/oneself/salary/salary",
+    "pages/user/oneself/undergo/undergo",
+    "pages/user/enterprise/scale/scale",
+    "pages/user/enterprise/companyIntro/companyIntro",
+    "pages/user/enterprise/guild/guild",
+    "pages/user/enterprise/post/post",
+    "pages/user/enterprise/skill/skill",
+    "pages/user/enterprise/describe/describe",
+    "pages/user/oneself/bill/bill",
+    "pages/user/enterprise/editInfo/editInfo",
+    "pages/user/enterprise/clause/clause",
+    "pages/user/enterprise/detail/detail",
+    "pages/user/oneself/detail/detail",
+    "pages/user/oneself/nukb/nukb"
+  ],
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#909398",
+    "selectedColor": "#ff006e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "简历",
+        "iconPath": "images/icon_index.png",
+        "selectedIconPath": "images/icon_index_h.png"
+      },
+      {
+        "pagePath": "pages/enterprise/index/index",
+        "text": "企业",
+        "iconPath": "images/icon_forum.png",
+        "selectedIconPath": "images/icon_forum_h.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加",
+        "iconPath": "images/icon_quan.png",
+        "selectedIconPath": "images/icon_quan_h.png"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "text": "VIP",
+        "iconPath": "images/icon_cart.png",
+        "selectedIconPath": "images/icon_cart_h.png"
+      },
+      {
+        "pagePath": "pages/user/index/index",
+        "text": "我的",
+        "iconPath": "images/icon_me.png",
+        "selectedIconPath": "images/icon_me_h.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff498f",
+    "navigationBarTitleText": "美助圈",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于收货地址"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
